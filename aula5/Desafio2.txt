@@ -1,0 +1,8 @@
+Desafio - Molezinha😁
+Criar um form, digitar duas notas
+av1 e av2
+Calcular a média entre av1 e av2
+media>=6
+Com a média calculada mostrar uma das mensagens abaixo:
+"Aprovado"
+"Reprovado"
