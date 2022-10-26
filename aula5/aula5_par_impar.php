@@ -4,7 +4,7 @@ if(count($_POST)==0){
     exit();//saia do código
 }
 $num=$_POST["num"];
-//$ra=$_POST["ra"];
+$ra=$_POST["ra"];
 
 echo "<h2>Seu Ra: $ra</h2>";
 // Código Par Impar com Ternário
