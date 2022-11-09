@@ -8,4 +8,6 @@ if ($a == $b) {
 else {
     echo 'A variável $a não é igual a variável $b';
 }
+
+echo "<br>Continua...";
 ?>
