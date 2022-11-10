@@ -63,4 +63,11 @@ $tabuada = 3;
 
 
 */
+$tabuada = 4;
+$i=0;
+while($i<=10){
+    //echo "3 x 0 = 0<br>";
+    echo "$tabuada x $i = ".($tabuada*$i)."<br>";
+    $i++;
+}    
 ?>
