@@ -43,4 +43,24 @@ Desafio 3:
 
 0 2 4 6 8 10
 */
+$i=0; // valor inicial
+while ($i <= 10) {//condição
+ echo $i . " ";
+ $i+=2;//contador
+ //$i++ //$i+=1  //$i=$i+1 soma 1
+}
+echo "<hr>";
+/*
+Desafio 4: 
+
+$tabuada = 3;
+3 x 0 = 0
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+....
+3 x 10 = 30
+
+
+*/
 ?>
