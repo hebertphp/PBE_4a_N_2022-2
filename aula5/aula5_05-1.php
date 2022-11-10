@@ -21,10 +21,26 @@ Desafio 1: Mostrar a saída abaixo
 
 7 8 9 10
 */
-$i=0; // valor inicial
-while ($i <= 5) {//condição
+$i=7; // valor inicial
+while ($i <= 10) {//condição  ($i < 11)
  echo $i . " ";
  $i++;//contador
 }
 echo "<hr>";
+/*
+Desafio 2: ATENÇÃO, CUIDADO COM O CÓDIGO!!!!
+
+5 4 3 2 1
+*/
+$i=5; // valor inicial
+while ($i >= 1) {//condição  ($i > 0)
+ echo $i . " ";
+ $i--;//contador
+}
+echo "<hr>";    
+/*
+Desafio 3: 
+
+0 2 4 6 8 10
+*/
 ?>
