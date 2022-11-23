@@ -17,5 +17,8 @@ echo "RA: ".$estudante["ra"]."<br>";
 echo "Nome: ".$estudante["nome"]."<br>";
 echo "AV1: ".$estudante["av1"]."<br>";
 echo "AV2: ".$estudante["av2"]."<br>";
-Echo "Média: ";
+echo "Média: ".(($estudante["av1"]+ $estudante["av2"])/2);
+echo "<hr>";
+echo count($notas)."---".count($estudante);
+
 ?>
