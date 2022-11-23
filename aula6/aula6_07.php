@@ -13,5 +13,9 @@ $estudante=array(
     "av2" =>7
 );
 echo "<pre>";print_r($estudante);echo "</pre><hr>";
-
+echo "RA: ".$estudante["ra"]."<br>";
+echo "Nome: ".$estudante["nome"]."<br>";
+echo "AV1: ".$estudante["av1"]."<br>";
+echo "AV2: ".$estudante["av2"]."<br>";
+Echo "Média: ";
 ?>
