@@ -13,14 +13,16 @@ sort($uf);
 
 <body>
     <form action="recebe.php" method="post">
+        E-mail <input type="email" name="email" id="email"><br>
         Selecione UF
-        <select name="uf" id="uf">
+        <select name="uf" id="">
             <?php
             foreach($uf as $pos=>$valor){
                 echo "<option value='$valor'>$valor</option>";
             }
             ?>
-        </select>
+        </select><br>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
