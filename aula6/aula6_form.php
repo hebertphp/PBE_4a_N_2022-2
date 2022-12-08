@@ -1,3 +1,6 @@
+<?php
+$uf=array("SP","RJ","MG","ES","AM","BA","SC","RO","RR","TO","AP","PB");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,11 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <form action="recebe.php" method="post">
         Selecione UF
         <select name="uf" id="uf">
-            
+            <?php
+            echo "<option value='SP'>SP</option>";
+            ?>
         </select>
     </form>
 </body>
