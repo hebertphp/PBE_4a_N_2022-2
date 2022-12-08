@@ -1,4 +1,7 @@
 <?php
+$num=array(10,20,40,30,12);
+sort($num);
+echo "<pre>";print_r($num);echo "</pre>";
 $nome1=array("Fulano","Beltrano","Sicrano");
 $nome2=array("Fulano","Beltrano","Sicrano");
 $nome3=array("Fulano","Beltrano","Sicrano");
