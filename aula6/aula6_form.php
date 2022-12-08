@@ -14,6 +14,7 @@ sort($uf);
 <body>
     <form action="recebe.php" method="post">
         E-mail <input type="email" name="email" id="email"><br>
+        Senha <input type="password" name="senha" id="senha"><br>
         Selecione UF
         <select name="uf" id="">
             <?php
