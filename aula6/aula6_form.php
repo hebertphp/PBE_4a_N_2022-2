@@ -15,7 +15,9 @@ $uf=array("SP","RJ","MG","ES","AM","BA","SC","RO","RR","TO","AP","PB");
         Selecione UF
         <select name="uf" id="uf">
             <?php
-            echo "<option value='SP'>SP</option>";
+            foreach($uf as $pos=>$valor){
+                echo "<option value='SP'>SP</option>";
+            }
             ?>
         </select>
     </form>
