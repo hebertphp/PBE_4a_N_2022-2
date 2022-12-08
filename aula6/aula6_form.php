@@ -1,5 +1,6 @@
 <?php
 $uf=array("SP","RJ","MG","ES","AM","BA","SC","RO","RR","TO","AP","PB");
+sort($uf);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,7 +17,7 @@ $uf=array("SP","RJ","MG","ES","AM","BA","SC","RO","RR","TO","AP","PB");
         <select name="uf" id="uf">
             <?php
             foreach($uf as $pos=>$valor){
-                echo "<option value='SP'>SP</option>";
+                echo "<option value='$valor'>$valor</option>";
             }
             ?>
         </select>
