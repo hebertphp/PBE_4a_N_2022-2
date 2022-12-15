@@ -12,7 +12,7 @@
         die("Falha ao conectar com o servidor: " . mysqli_connect_error());
     }
     else {
-        echo "Conexão efetuada com sucesso!";
+        //echo "Conexão efetuada com sucesso!";
     }
     //echo "<br>Continou o código!!!";
     //mysqli_close($conn);
