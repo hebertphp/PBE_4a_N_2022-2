@@ -9,11 +9,12 @@ $result = mysqli_query($conn,$sql) or die (mysqli_error($conn));
         <th>id</th>
         <th>login</th>
         <th>senha</th>
+        <th>Email</th>
     <tr>   
 <?php        
 while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
 // echo $row["login"]." - ".$row["senha"]."---".$row["email"]." - ".$row["data"]."<br>";
-echo "<tr><td>".$row["id"]."</td><td>".$row["login"]."</td><td>".$row["senha"]."</td><tr>";
+echo "<tr><td>".$row["id"]."</td><td>".$row["login"]."</td><td>".$row["senha"]."</td><td>".$row["email"]."</td><tr>";
 }
 echo "</table>";
 mysqli_free_result($result);
