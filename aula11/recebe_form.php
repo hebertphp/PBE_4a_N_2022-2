@@ -1,5 +1,8 @@
 <?php
 // echo "<pre>";print_r($_POST);echo "</pre>";
+if(count($_POST)==0){
+    die("Erro de acesso!<br><a href='form_cad.html'>Clique aqui para o form</a>");
+}
 $login=$_POST["login"];
 $senha=$_POST["senha"];
 $email=$_POST["email"];
